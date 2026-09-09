@@ -13,7 +13,8 @@ public class SistemaDescuentoVIP {
         var Membresia = Boolean.parseBoolean(consola.nextLine());
 
         var eselegibleEldescuento = cantProductos >= cantidadProductodescuento && Membresia;
-        System.out.print("eselegibleEldescuento = " + eselegibleEldescuento);
+        System.out.print("Tienes acceso al descuento VIP: = " + eselegibleEldescuento);
+
 
 
     }
