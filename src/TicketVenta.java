@@ -21,11 +21,11 @@ public class TicketVenta {
         var costoTotalcompra = subTotal + impuesto;
         //Imprimimos el ticket
         System.out.printf("""
-                /n Impresion de ticket
-                ----------------------
+                %n Impresion de ticket
+                %n----------------------
                 subTotal: $%.2f
                 impuesto (9%%): $%.2f 
-                CostoTotal: $%.2f : 
+                CostoTotal: $%.2f 
                 """, subTotal, impuesto,costoTotalcompra);
 
     }
